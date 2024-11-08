@@ -4,24 +4,29 @@ body{
 
 header{
     background-image: url("images/Ancestors.jpg");
-    max-width: 100%
-    height: 100px;
+    background-size: 100%;
+    background-repeat:  no-repeat;
+    max-width:75%
+    max-height: 50%;
 }
 
 h1{
     height: 150px;
-    font-size: 150x;
+    font-size: 50px;
+    color: rgb(52, 23, 179);
     text-align: center;
     text-decoration: wavy;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 5px 5px 5px grey;
+    text-shadow: 5px 5px 5px rgb(242, 239, 243);
+    padding-top:  100px;
 }
 
 h2{
-    text-align:left
+    text-align:left;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400px;
 }
+
 h3{
     background-color: rgb(62, 155, 161);
     text-align: left;
@@ -67,12 +72,30 @@ h3{
 
 .galleryone {
     border: 5px solid rgb(91, 44, 153);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0 20px;
+    align-items: center;
+}
+.gallerytwo{
+    border: 5px solid rgb(91, 44, 153);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0 20px;
+    align-items: center;
 }
 
 .containerthree{
     border: 50px solid rgb(44, 46, 155);
 }
 
-.boxone{
-
+.list-section{
+    font-size: large;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(62, 155, 161);
 }
