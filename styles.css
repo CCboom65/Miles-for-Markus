@@ -1,24 +1,57 @@
-body {
-    background: linear-gradient(to right, blue, white)
+body{
+    background: linear-gradient(to right, rgb(58, 107, 199), lightgreen)
+}
+
+header{
+    background-image: url("images/Ancestors.jpg");
+    max-width: 100%
+    height: 100px;
 }
 
 h1{
-    background-color: rgb(154, 102, 238);
+    height: 150px;
+    font-size: 150x;
     text-align: center;
+    text-decoration: wavy;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 1000px;
+    text-shadow: 5px 5px 5px grey;
 }
 
 h2{
-    background-color: rgb(164, 78, 245);
-    text-align: center;
+    text-align:left
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 700px;
+    font-weight: 400px;
 }
+h3{
+    background-color: rgb(62, 155, 161);
+    text-align: left;
+    font-family: cursive;
+    font-weight: 400px;
+}
+
+#container {
+    padding: 30px;
+    border: 25px solid rgb(32, 12, 143);
+    border-inline-start-color: rgb(108, 108, 212)
+}
+
 .section-one{
     color: black;
     font-size: 20px;
-    font-style: italic;   
+    font-style: italic;
+    border: 20px green;
+    border-left: 15pix;
+}
+
+.section-two{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.section-three{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20px;
 }
 
 .center{
@@ -26,4 +59,20 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+#container-two{
+    border-start-end-radius: 20px;box-shadow: 25px;
+}
+
+.galleryone {
+    border: 5px solid rgb(91, 44, 153);
+}
+
+.containerthree{
+    border: 50px solid rgb(44, 46, 155);
+}
+
+.boxone{
+
 }
