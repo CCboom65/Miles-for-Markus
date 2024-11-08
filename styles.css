@@ -73,7 +73,7 @@ h3{
 .galleryone {
     border: 5px solid rgb(91, 44, 153);
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
     padding: 0 20px;
     align-items: center;
@@ -81,7 +81,7 @@ h3{
 .gallerytwo{
     border: 5px solid rgb(91, 44, 153);
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
     padding: 0 20px;
     align-items: center;
